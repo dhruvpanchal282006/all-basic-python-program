@@ -1,0 +1,6 @@
+#dollars into rupees
+def convert(dollars):
+    return dollars*90
+dollars=float(input("Enter the dollars"))
+convert(dollars)
+print("rupees=",convert(dollars))

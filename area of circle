@@ -1,0 +1,5 @@
+def area(radius):
+    return radius*radius
+radius=float(input("Enter the radius"))
+area(radius)
+print("Area=",area(radius))
